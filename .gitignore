@@ -1,27 +1,22 @@
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
 venv/
 .env
-token.pkl
 
-# Node
-node_modules/
-dist/
-build/
-.env.local
+# React
+frontend/node_modules/
+frontend/build/
+frontend/.env
 
-# OS/System
+# VS Code / OS
+.vscode/
 .DS_Store
 Thumbs.db
 
-# React
-frontend/.env
-frontend/node_modules/
-frontend/build/
-
-# SQLite
+# Secrets / Credentials
+backend/credentials/
 *.sqlite3
-*.db
+token.pkl
